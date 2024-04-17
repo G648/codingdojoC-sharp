@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3+J3sxtVFrHIyg0iZr4IZJ006Z0OvbMENXWchLBo7aI=",
+  "Hash": "ESuv34dXHQdBMg3bTwPRdk0pKrYzs6r+AdvhUHKmlas=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\57267874800\\Desktop\\codingdojo\\WebApplication1\\WebApplication1\\wwwroot\\17042024-103052.mp3",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\57267874800\\Desktop\\codingdojo\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "17042024-103052.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\17042024-103052.mp3"
+    },
     {
       "Identity": "C:\\Users\\57267874800\\Desktop\\codingdojo\\WebApplication1\\WebApplication1\\wwwroot\\teste.mp3",
       "SourceId": "WebApplication1",

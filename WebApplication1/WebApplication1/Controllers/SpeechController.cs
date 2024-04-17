@@ -59,7 +59,7 @@ namespace WebApplication1.Controllers
 
             
 
-            return file;
+            return Ok(filename);
         }
 
 
