@@ -12,15 +12,16 @@ namespace WebApplication1.Controllers
     [ApiController]
     public class SpeechController : ControllerBase
     {
+        private readonly IWebHostEnvironment _environment;
         private readonly string subscriptionKey = "";
         private readonly string subscriptionRegion = "brazilsouth";
 
-        public SpeechController()
+        public SpeechController(IWebHostEnvironment environment)
         {
-
+            _environment = environment ?? throw new ArgumentNullException(nameof(environment));
         }
 
-        [HttpGet]
+        [HttpGet("TextToSpeech")]
         public async Task<IActionResult> Teste(string text)
         {
 
@@ -50,12 +51,20 @@ namespace WebApplication1.Controllers
 
             MemoryStream ms = new MemoryStream(result.AudioData);
 
-            return File(ms, "audio/wav", "teste.wav");
+            var filename = DateTime.Now.ToString().Replace("/","").Replace(":", "").Replace(" ", "-").Trim() + ".mp3";
+
+            System.IO.File.WriteAllBytes($"{_environment.ContentRootPath}/wwwroot/{filename}", result.AudioData);
+
+            var file = File(ms, "audio/wav", "teste.wav");
+
+            
+
+            return file;
         }
 
 
 
-        [HttpPost("speechtotext")]
+        [HttpPost("SpeechToText")]
         public async Task<IActionResult> Teste(IFormFile audio)
         {
             var config = SpeechConfig.FromSubscription(subscriptionKey, subscriptionRegion);

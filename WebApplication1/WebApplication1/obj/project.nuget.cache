@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0fGEy+E8QMNM0JAyGSeM3Te0WbILnmgJXgar6B/JER1gAFytAoZcy8sisUpD45jh8IPsiW04qKSawFH86KKbcw==",
+  "dgSpecHash": "vTtrNkWmkd4uDpyy3hlNG+sAVZbQ2kL4AqwP/EVrZLA/PtYefkJi1800UJe6QDpE3an9ThXNfuKql3v552BCyg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\57267874800\\Desktop\\codingdojoteste\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "C:\\Users\\57267874800\\Desktop\\codingdojo\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\57267874800\\.nuget\\packages\\microsoft.cognitiveservices.speech\\1.37.0\\microsoft.cognitiveservices.speech.1.37.0.nupkg.sha512",
     "C:\\Users\\57267874800\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
